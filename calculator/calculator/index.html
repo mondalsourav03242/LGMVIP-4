@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Calculator using HTML,css and Javascript</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index js"></script>
+</head>
+
+<body>
+
+
+
+
+  <table class="calculator">
+    <tr>
+          
+      <td colspan="3">
+        <input class="display-boxs" type="text" id="solve" disabled />
+        <input class="display-box" type="text" id="result" disabled />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="sin " onclick="sin()" id="sin" />
+      </td>
+      <td>
+        <input type="button" value="cos " onclick="cos()" id="cos" />
+      </td>
+      <td>
+        <input type="button" value="tan " onclick="tan()" id="tan" />
+      </td>
+      <td>
+        <input type="button" value="rad " onclick="rad()" id="rad" />
+      </td>
+      <td>
+        <input type="button" value="deg " onclick="deg()" id="deg" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value="log " onclick="log()" id="lg" />
+      </td>
+      <td><input type="button" value=" ln " onclick="ln()" id="ln" /></td>
+      <td>
+        <input type="button" value="(" onclick="display('(')" id="fp" />
+      </td>
+      <td>
+        <input type="button" value=")" onclick="display(')')" id="lp" />
+      </td>
+      <td>
+        <input type="button" value="INV " onclick="inv()" id="in" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="button" value=" x! " onclick="factorial()" id="fa" />
+      </td>
+      <td>
+        <input type="button" value=" C  " onclick="clearScreen()" id="cl" />
+      </td>
+      <td>
+        <input type="button" value=" %  " onclick="display('%')" id="mod" />
+      </td>
+      <td>
+        <input type="button" value="Back" onclick="backspace()" id="back" />
+      </td>
+      <td>
+        <input type="button" value="  / " onclick="display('/')" id="di" />
+      </td>
+    </tr>
+      
+    <tr>
+      <td>
+        <input type="button" value="  ^ " onclick="display('^')" id="ex" />
+      </td>
+               
+      <td><input type="button" value="  7 " onclick="display('7')" /></td>
+      <td><input type="button" value="  8 " onclick="display('8')" /></td>
+      <td><input type="button" value="  9 " onclick="display('9')" /></td>
+      <td>
+        <input type="button" value="  * " onclick="clearScreen2('*')" id="mult" />
+      </td>
+
+             
+    </tr>
+      
+    <tr>
+      <td>
+        <input type="button" value="  √ " onclick="squareRoot()" id="sqrt" />
+      </td>
+      <td>
+        <input type="button" value="  4 " onclick="display('4') " />
+      </td>
+      <td><input type="button" value="  5 " onclick="display('5')" /></td>
+          
+      <td><input type="button" value="  6 " onclick="display('6')" /></td>
+          
+      <td>
+        <input type="button" value="  - " onclick="display('-')" id="sub" />
+      </td>
+
+        
+    </tr>
+      
+    <tr>
+      <td><input type="button" value="  π " onclick="pi()" id="pi" /></td>
+          
+      <td><input type="button" value="  1 " onclick="display('1')" /></td>
+          
+      <td><input type="button" value="  2 " onclick="display('2')" /></td>
+          
+      <td><input type="button" value="  3 " onclick="display('3')" /></td>
+          
+      <td>
+        <input type="button" value="  + " onclick="display('+')" id="add" />
+      </td>
+        
+    </tr>
+      
+    <tr>
+      <td>
+        <input type="button" values="  e " onclick="exp()" id="ei" />
+      </td>
+      <td>
+        <input type="button" value=" 00 " onclick="display('00')" />
+      </td>
+      <td><input type="button" value="  0 " onclick="display('0')" /></td>
+      <td><input type="button" value="  . " onclick="display('.')" /></td>
+          
+      <td>
+        <input type="button" value="  = " onclick="display1()" id="btn" />
+      </td>
+             
+    </tr>
+    <tr></tr>
+  </table>
+
+
+   
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
